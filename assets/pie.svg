@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="40" viewBox="0 0 1280 40" role="img" aria-labelledby="t d">
+  <title id="t">Fin del perfil</title>
+  <desc id="d">Línea decorativa</desc>
+  <style>
+    .tw{animation:tw 5s ease-in-out infinite}
+    .tw2{animation:tw 7s ease-in-out 1.5s infinite}
+    .tw3{animation:tw 6s ease-in-out 3s infinite}
+    @keyframes tw{0%,100%{opacity:.35}50%{opacity:1}}
+    .pulse{animation:pulse 3.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+    @keyframes pulse{0%,100%{transform:scale(1);opacity:.95}50%{transform:scale(1.6);opacity:.4}}
+    .spin{animation:spin 60s linear infinite;transform-box:view-box}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    .flow{stroke-dasharray:5 95;animation:flow 6s linear infinite}
+    @keyframes flow{from{stroke-dashoffset:100}to{stroke-dashoffset:0}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <defs>
+    <linearGradient id="l" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5ce1ff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#5ce1ff" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#b49bff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="140" y="19.5" width="1000" height="1" fill="url(#l)"/>
+  <circle class="pulse" cx="640" cy="20" r="6" fill="#5ce1ff" fill-opacity="0.35"/>
+  <circle cx="640" cy="20" r="3.5" fill="#9fefff"/>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="215" height="48" viewBox="0 0 215 48" role="img" aria-labelledby="t d">
+  <title id="t">Portafolio · JOSÉ·IA</title>
+  <desc id="d">Portafolio · JOSÉ·IA</desc>
+  <style>
+    .tw{animation:tw 5s ease-in-out infinite}
+    .tw2{animation:tw 7s ease-in-out 1.5s infinite}
+    .tw3{animation:tw 6s ease-in-out 3s infinite}
+    @keyframes tw{0%,100%{opacity:.35}50%{opacity:1}}
+    .pulse{animation:pulse 3.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+    @keyframes pulse{0%,100%{transform:scale(1);opacity:.95}50%{transform:scale(1.6);opacity:.4}}
+    .spin{animation:spin 60s linear infinite;transform-box:view-box}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    .flow{stroke-dasharray:5 95;animation:flow 6s linear infinite}
+    @keyframes flow{from{stroke-dashoffset:100}to{stroke-dashoffset:0}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <defs>
+    <linearGradient id="b" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1226"/>
+      <stop offset="1" stop-color="#140f30"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.75" y="0.75" width="213.5" height="46.5" rx="23.25" fill="url(#b)" stroke="#5ce1ff" stroke-opacity="0.45" stroke-width="1.5"/>
+  <circle cx="26" cy="24" r="8" fill="none" stroke="#5ce1ff" stroke-width="1.6"/><ellipse cx="26" cy="24" rx="3.4" ry="8" fill="none" stroke="#5ce1ff" stroke-width="1.4"/><path d="M18 24 H34" stroke="#5ce1ff" stroke-width="1.4"/>
+  <text x="48" y="29" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" fill="#eaf0ff">Portafolio · JOSÉ·IA</text>
+</svg>
